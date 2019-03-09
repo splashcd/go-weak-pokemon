@@ -1,6 +1,8 @@
 # py2-weak-pokemon
 A python2 example of meta programming and self-registering subclasses
 
+**Want to know which Pokemon types are weakest against a specific Pokemon type?**
+
 In your software engineering efforts, you may come across a scenario which could benefit from plug-and-play classes.  This is a concise example of self-registering classes which can be added or removed easily without affecting the main functionality that `uses` them.
 ## Context
 Pokemon is a game of fighting creatures that have a type hierarchy.  From what I understand, all Pokemon types are either effective, weak or neutral against other specific Pokemon types... which essentially ends up making it a very complicated version of _rock/paper/scissors_.
