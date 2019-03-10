@@ -1,14 +1,5 @@
 from pokemon_types.interfaces.pokemon_interface import PokemonInterface
-from pokemon_types.bug import Bug
-from pokemon_types.dragon import Dragon
-from pokemon_types.electric import Electric
-from pokemon_types.flying import Flying
-from pokemon_types.grass import Grass
-from pokemon_types.ground import Ground
-from pokemon_types.ice import Ice
-from pokemon_types.rock import Rock
-from pokemon_types.steel import Steel
-from pokemon_types.water import Water
+from pokemon_types import *  # <- Lazy Loading of pokemon_types directory
 
 
 # Not the best example of implementing interfaces, as all classes implement the validate_fighting_type
