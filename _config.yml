@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 plugins:
   - jekyll-seo-tag
-title: Weak Pokemon Types: A python 2 project with self registering subclasses and lazy loading
+title: Weak Pokemon Types - A python 2 project with self registering subclasses and lazy loading
 description: A python2 example of meta programming and self-registering subclasses (with lazy loading)
 author: Brett Berry
